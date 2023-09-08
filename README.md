@@ -38,11 +38,13 @@
 
 ### Setup GIT
 1. [download git](https://git-scm.com/downloads)
+
 2. your configuration -g = --global
 ``` bash
 git config -g user.name "your name"
-git config -g user.email "your@email.git"
+git config -g user.email your@email.git
 ```
+
 3. check your configuration -l = --list
 ``` bash
 git config -l
