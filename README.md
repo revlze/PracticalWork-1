@@ -47,7 +47,7 @@ git config -g user.email your@email.git
 
 3. check your configuration -l = --list
 ``` bash
-git config -l
+cat ~/.gitconfig or git config -l
 ```
 
 
