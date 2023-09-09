@@ -66,7 +66,7 @@ git config -l
 # -l = --list
 ```
 
-## Use the git
+## Using git
 
 -  Initialize git 
 ``` bash
@@ -104,6 +104,6 @@ git commit -m "First commit"
 git log
 ```
 
-# Generating SSH-key
+## Generating SSH-key
 
 
