@@ -46,7 +46,7 @@
 
 - You can use past commands by using **↑** or **↓**
 
-- You can use one **Tab** press for the autocomplete command or two **Tab** presses to display folders/files in the console
+- You can use **one** **Tab** press for the autocomplete command or **two Tab** presses to display folders/files in the console
 
 ### Git setup
 1. [download git](https://git-scm.com/downloads)
