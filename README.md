@@ -131,6 +131,7 @@ ls -a ~/.ssh
 clip < ~/.ssh/id_rsa.pub
 # for ed25519:
 clip < ~/.ssh/id_ed25519.pub
+```
 
 2. Go to **Settings** in GitHub.
 
