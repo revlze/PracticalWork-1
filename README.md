@@ -104,6 +104,6 @@ git commit -m "First commit"
 git log
 ```
 
-## Generating SSH-key
+# Generating SSH-key
 
 
