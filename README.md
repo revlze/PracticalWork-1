@@ -10,9 +10,13 @@
 
 - **cd** .. - return to the parent directory
 
+- **cd** / - go to the root directory
+
 - **.** - access to the current directory
 
 - **ls** - list directory contents
+
+- **ls** -a - list directory all contents (-a = --all)
 
 - **touch** - create new file
 
@@ -32,25 +36,32 @@
 
 - **rm** **-v** - remove recursive. *use carefully removes at once*
 
----
+----
 **All delete commands erase data irretrievably - it cannot be recovered from the Recycle Bin!**
----
+----
 
-### Setup GIT
+### Helpful features
+
+- You can use two ampersands to use two commands at once at the same time (**&&**).
+
+- You can use past commands by using **↑** or **↓**
+
+- You can use one **Tab** press for the autocomplete command or two **Tab** presses to display folders/files in the console
+
+### Git setup
 1. [download git](https://git-scm.com/downloads)
 
-2. your configuration -g = --global
+2. configuration setup
 ``` bash
 git config -g user.name "your name"
 git config -g user.email your@email.git
+#-g = --global
 ```
 
-3. check your configuration -l = --list
+3. check the configuration
 ``` bash
 #use the first or second command
 cat ~/.gitconfig 
 git config -l
+# -l = --list
 ```
-
-
-
