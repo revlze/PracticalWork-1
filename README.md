@@ -163,3 +163,40 @@ write **yes**
 Hi %Your_Account%! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
+### Linking local and remote repositories
+
+- Go to the remote repository page, select SSH type and copy the URL. 
+
+- Open bash and navigate to the local repository directory and enter the command
+``` bash
+cd ~/dev/firstProject
+git remote add origin https://github.com/revlze/PracticalWork-1 # use ur link
+```
+
+- Make sure the repositories are linked.
+```bash
+git remote -v
+# -v = verbose
+```
+
+### Send the change to a remote repository
+
+``` bash
+git add file.txt
+git commit -m "added file.txt"
+
+git push -u origin master
+
+#if u got error use other command
+
+git push -u origin main
+```
+
+**git push -u origin master** - this command is needed only for the first time, for the next time you need to use this command - **git push**
+
+### About Markdown
+
+cheet sheet - https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c
+
+
+*end.*
