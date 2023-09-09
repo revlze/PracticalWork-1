@@ -106,4 +106,7 @@ git log
 
 ## Generating SSH-key
 
+1. ``` bash
+ssh-keygen -t ed25519 -C "email to which your GitHub account is linked"
+```
 
