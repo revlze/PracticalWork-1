@@ -106,7 +106,20 @@ git log
 
 ## Generating SSH-key
 
+1.
 ``` bash
 ssh-keygen -t ed25519 -C "email to which your GitHub account is linked"
+# But if u have error, use next command
+ssh-keygen -t rsa -b 4096 -C "email to which your GitHub account is linked"
 ```
+
+2. Press **Enter**
+
+3. The programm will ask for a passphrase to access the SSH-key. You can leave th e field blank. To do so, press Enter and the press Enter again to confrim.
+
+4. Done! Now it remains to verify that the keys have indeed been generated. To do so, call this command.
+``` bash
+ls -a ~/.ssh
+```
+
 
