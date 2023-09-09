@@ -46,7 +46,7 @@
 
 - You can use past commands by using **↑** or **↓**
 
-- You can use **one** **Tab** press for the autocomplete command or **two Tab** presses to display folders/files in the console
+- You can use **one Tab** press for the autocomplete command or **two Tab** presses to display folders/files in the console
 
 ### Git setup
 1. [download git](https://git-scm.com/downloads)
@@ -65,3 +65,21 @@ cat ~/.gitconfig
 git config -l
 # -l = --list
 ```
+
+## Use the git
+
+1. Initialize git 
+``` bash
+cd ~/dev/firstProject # go to the desired folder
+git init # git initialization
+```
+
+To delete a git repository if you mess up the folder. I mean, delete the git folder.
+``` bash
+cd <repository folder>
+rm -rf .git
+# r = recursive, f = force
+```
+
+- **Git status** - it shows the current state of the repository.
+
