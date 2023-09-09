@@ -1,6 +1,6 @@
-# Это мой конспект за 9 пройденых тем, которые включают 24 урока [курс](https://practicum.yandex.ru/profile/git-basics/ "Основы работы с Git от Яндекса")
+# This is my outline for the nine topics covered, which includes 24 lessons 
 
-### И так для начала я напишу и опишу все команды для работы в bash и cmd, которые я узнал из [этого курса](https://practicum.yandex.ru/profile/git-basics/ "Основы работы с Git от Яндекса") 
+### So first, I will write and describe all the bash and cmd commands I learned in this [course](https://practicum.yandex.ru/profile/git-basics/ "Git basics from Yandex") 
 
 - **pwd** - print working directory
 
@@ -47,7 +47,10 @@ git config -g user.email your@email.git
 
 3. check your configuration -l = --list
 ``` bash
-cat ~/.gitconfig or git config -l
+#use the first or second command
+cat ~/.gitconfig 
+git config -l
 ```
+
 
 
