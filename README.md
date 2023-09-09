@@ -16,7 +16,7 @@
 
 - **ls** - list directory contents
 
-- **ls** -a - list directory all contents (-a = --all)
+- **ls** **-a** - list directory all contents (-a = --all)
 
 - **touch** - create new file
 
@@ -68,13 +68,13 @@ git config -l
 
 ## Use the git
 
-1. Initialize git 
+-  Initialize git 
 ``` bash
 cd ~/dev/firstProject # go to the desired folder
 git init # git initialization
 ```
 
-To delete a git repository if you mess up the folder. I mean, delete the git folder.
+- To delete a git repository if you mess up the folder. I mean, delete the git folder.
 ``` bash
 cd <repository folder>
 rm -rf .git
@@ -82,4 +82,28 @@ rm -rf .git
 ```
 
 - **Git status** - it shows the current state of the repository.
+
+- Preparing a file for saving
+``` bash
+git add file.txt
+```
+
+to add the whole folder
+``` bash
+git add .
+```
+
+- How to make commit
+``` bash
+git commit -m "First commit"
+# m = message
+```
+
+- How to check commit history
+``` bash
+git log
+```
+
+## Generating SSH-key
+
 
