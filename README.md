@@ -122,4 +122,43 @@ ssh-keygen -t rsa -b 4096 -C "email to which your GitHub account is linked"
 ls -a ~/.ssh
 ```
 
+### Linking to GitHub
+
+1. copy your key
+``` bash
+# for windows
+
+clip < ~/.ssh/id_rsa.pub
+# for ed25519:
+clip < ~/.ssh/id_ed25519.pub
+
+2. Go to **Settings** in GitHub.
+
+3. Go to point **SSH and GPG keys**.
+
+4. Press button **New SSH key**.
+
+5. Fill **Title**. For example: Personal key.
+
+6. **Key Type** -> **Authentication Key**.
+
+7. Paste your key in field **Key**.
+
+8. Press button **Add SSH key**.
+
+9. Verify that the key is correct using the following command.
+``` bash 
+ssh -T git@github.com
+```
+
+If it's first time, when u use Git, to share a project on GitHub a similar warning will appear.
+``` bash
+The authenticity of host 'github.com (140.82.121.4)' can't be established. ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU. This key is not known by any other names. Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+write **yes**
+
+``` bash
+Hi %Your_Account%! You've successfully authenticated, but GitHub does not provide shell access.
+```
 
