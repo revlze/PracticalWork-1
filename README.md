@@ -36,7 +36,7 @@
 
 - **rm** **-v** - remove recursive. *use carefully removes at once*
 
-**All delete commands erase data irretrievably - it cannot be recovered from the Recycle Bin!**
+#### **All delete commands erase data irretrievably - it cannot be recovered from the Recycle Bin!**
 
 
 ## Helpful features
