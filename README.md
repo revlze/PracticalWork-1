@@ -40,7 +40,7 @@
 **All delete commands erase data irretrievably - it cannot be recovered from the Recycle Bin!**
 ----
 
-### Helpful features
+## Helpful features
 
 - You can use two ampersands to use two commands at once at the same time (**&&**).
 
@@ -48,7 +48,7 @@
 
 - You can use **one Tab** press for the autocomplete command or **two Tab** presses to display folders/files in the console
 
-### Git setup
+## Git setup
 1. [download git](https://git-scm.com/downloads)
 
 2. configuration setup
@@ -122,7 +122,7 @@ ssh-keygen -t rsa -b 4096 -C "email to which your GitHub account is linked"
 ls -a ~/.ssh
 ```
 
-### Linking to GitHub
+## Linking to GitHub
 
 1. copy your key
 ``` bash
@@ -163,7 +163,7 @@ write **yes**
 Hi %Your_Account%! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-### Linking local and remote repositories
+## Linking local and remote repositories
 
 - Go to the remote repository page, select SSH type and copy the URL. 
 
@@ -179,7 +179,7 @@ git remote -v
 # -v = verbose
 ```
 
-### Send the change to a remote repository
+## Send the change to a remote repository
 
 ``` bash
 git add file.txt
@@ -194,7 +194,7 @@ git push -u origin main
 
 **git push -u origin master** - this command is needed only for the first time, for the next time you need to use this command - **git push**
 
-### About Markdown
+## About Markdown
 
 cheet sheet - https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c
 
